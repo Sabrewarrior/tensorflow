@@ -1,5 +1,9 @@
 Using msys2 on Windows 10
 
+$ export JAVA_HOME="$(ls -d C:/Program\ Files/Java/jdk* | sort | tail -n 1)"
+$ export TMPDIR=c:/temp
+$ export BAZEL_SH=c:/tools/msys64/usr/bin/bash.exe
+
 $ pip list
 numpy (1.11.0)
 pip (8.1.2)
